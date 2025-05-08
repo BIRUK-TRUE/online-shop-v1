@@ -48,7 +48,7 @@ const Navbar = () => {
             setMenu("kids");
           }}
         >
-          <Link to="/kide" style={{ textDecoration: "none" }}>
+          <Link to="/kids" style={{ textDecoration: "none" }}>
             Kids
           </Link>{" "}
           {menu === "kids" ? <hr /> : null}
