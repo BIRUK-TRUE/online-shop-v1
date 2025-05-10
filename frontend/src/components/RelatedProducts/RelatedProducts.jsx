@@ -1,7 +1,7 @@
 import React from "react";
 import "./RelatedProducts.css";
 import data_product from "../Assets/data.js";
-import Item from "./Item/Item.jsx";
+import Item from "../Item/Item.jsx";
 export default function RelatedProducts() {
   return (
     <div className="relatedproducts">
